@@ -1,4 +1,4 @@
-# [broccoli](https://github.com/joliss/broccoli)-closure-compiler [![Build Status](https://travis-ci.org/sindresorhus/broccoli-closure-compiler.png?branch=master)](https://travis-ci.org/sindresorhus/broccoli-closure-compiler)
+# [broccoli](https://github.com/joliss/broccoli)-closure-compiler [![Build Status](https://travis-ci.org/sindresorhus/broccoli-closure-compiler.svg?branch=master)](https://travis-ci.org/sindresorhus/broccoli-closure-compiler)
 
 > Minify JavaScript with [Closure Compiler](https://github.com/dcodeIO/ClosureCompiler.js)
 
@@ -7,12 +7,12 @@
 
 ## Install
 
-```
-npm install --save broccoli-closure-compiler
+```bash
+$ npm install --save broccoli-closure-compiler
 ```
 
 
-## Example
+## Usage
 
 ```js
 var closure-compiler = require('broccoli-closure-compiler');
@@ -29,4 +29,4 @@ See the Closure Compiler [options](https://github.com/dcodeIO/ClosureCompiler.js
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
