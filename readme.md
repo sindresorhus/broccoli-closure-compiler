@@ -7,7 +7,7 @@
 
 ## Install
 
-```bash
+```sh
 $ npm install --save broccoli-closure-compiler
 ```
 
@@ -29,4 +29,4 @@ See the Closure Compiler [options](https://github.com/dcodeIO/ClosureCompiler.js
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com)
