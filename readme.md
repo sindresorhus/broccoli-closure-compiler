@@ -7,8 +7,8 @@
 
 ## Install
 
-```sh
-$ npm install --save broccoli-closure-compiler
+```
+$ npm install --save-dev broccoli-closure-compiler
 ```
 
 
@@ -22,7 +22,7 @@ tree = closure-compiler(tree, options);
 
 ## API
 
-### closure-compiler(tree, options)
+### closure-compiler(tree, [options])
 
 See the Closure Compiler [options](https://github.com/dcodeIO/ClosureCompiler.js#closurecompiler-api).
 
