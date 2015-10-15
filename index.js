@@ -9,6 +9,8 @@ function CCFilter(inputTree, options) {
 		return new CCFilter(inputTree, options);
 	}
 
+	Filter.call(this, inputTree);
+
 	this.inputTree = inputTree;
 	this.options = options || {};
 }
@@ -22,8 +24,8 @@ CCFilter.prototype.targetExtension = 'js';
 CCFilter.prototype.processString = function (str) {
 	var opts = this.options;
 
-	return new RSVP.Promise(function (resolve, reject) {
-		tempWrite(str, function (err, tempFile) {
+	return tempWrite(str).then(function (tempFile) {
+		return new RSVP.Promise(function (resolve, reject) {
 			cc.compile(tempFile, opts, function (err, data) {
 				if (err) {
 					// it's only an error if no data. weird API...
